@@ -43,3 +43,9 @@ if (isUserExists) {
     .status(201)
     .json(new ApiResponse(201, user, "Account created successfully"));
 });
+
+
+
+export const loginUser = asyncHandler(async (req, res) => {
+  
+})
